@@ -1,0 +1,5 @@
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_6_Training_Exercises\bin\Debug\EF_6_Training_Exercises.exe.config
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_6_Training_Exercises\bin\Debug\EF_6_Training_Exercises.exe
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_6_Training_Exercises\bin\Debug\EF_6_Training_Exercises.pdb
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_6_Training_Exercises\obj\Debug\EF_6_Training_Exercises.exe
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_6_Training_Exercises\obj\Debug\EF_6_Training_Exercises.pdb

@@ -1,0 +1,4 @@
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_Code_First_Sample\bin\Debug\EF_Code_First_Sample.dll
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_Code_First_Sample\bin\Debug\EF_Code_First_Sample.pdb
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_Code_First_Sample\obj\Debug\EF_Code_First_Sample.dll
+C:\KAREN_INFO\PROYECTOS\ASP_NET\Practices_Samples\Entity Framework\EF_6_Training_Exercises\EF_Code_First_Sample\obj\Debug\EF_Code_First_Sample.pdb
