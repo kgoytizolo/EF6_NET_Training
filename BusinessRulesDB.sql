@@ -58,9 +58,10 @@ CREATE INDEX Index_Programming_Language_Name ON dbo.TBL_PROGRAMMING_LANGUAGE (Pr
 
 -- We need a relationship between technologies and programming language for an accurate business rules search
 -- Example: A web application may have another projects or libraries in a different language than original. Same with FrontEnd
+
 CREATE TABLE dbo.TBL_TECHNOLOGIES_PROGRAMMING_LANGUAGES(
-	TechnologyId smallint NOT NULL,
-	ProgrammingLanguageId smallint NOT NULL
+	TechnologyId smallint FOREIGN KEY REFERENCES dbo.TBL_TECHNOLOGIES(TechnologyId),
+	ProgrammingLanguageId smallint FOREIGN KEY REFERENCES dbo.TBL_PROGRAMMING_LANGUAGE(ProgrammingLanguageId)
 )
 
 CREATE INDEX Index_Technologies_ProgLang ON dbo.TBL_TECHNOLOGIES_PROGRAMMING_LANGUAGES (TechnologyId, ProgrammingLanguageId)
@@ -88,8 +89,8 @@ CREATE INDEX Index_Application_Name ON dbo.TBL_APPLICATION (ApplicationName)
 
 -- Application technologies
 CREATE TABLE dbo.TBL_APPLICATION_TECHNOLOGIES(
-	ApplicationId integer NOT NULL,
-	TechnologyId smallint NOT NULL
+	ApplicationId integer FOREIGN KEY REFERENCES dbo.TBL_APPLICATION(ApplicationId),
+	TechnologyId smallint FOREIGN KEY REFERENCES dbo.TBL_TECHNOLOGIES(TechnologyId)
 )
 
 CREATE INDEX Index_Application_Technologies ON dbo.TBL_APPLICATION_TECHNOLOGIES (ApplicationId, TechnologyId)
